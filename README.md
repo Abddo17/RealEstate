@@ -58,15 +58,37 @@ Username: admin
 Password: admin123
 
 📂 Folder Structure
-bash
-Copy
-Edit
 /real-estate-php
 │
-├── /assets          # Images, CSS, JavaScript files
-├── /includes        # Reusable components (header, footer, DB connection)
-├── /admin           # Admin dashboard and management tools
-├── /users           # User login, registration, and profile
-├── /properties      # Property listings, add/edit forms
-├── index.php        # Homepage
-└── ...
+├── .idea/ # IDE configuration files (can be ignored)
+├── DATABASE FILE/ # MySQL database dump (.sql file)
+│
+├── admin/ # Admin dashboard and controls
+├── css/ # Stylesheets
+├── fonts/flaticon/ # Custom icon fonts
+├── webfonts/ # Web fonts
+├── images/ # Property and UI images
+├── js/ # JavaScript files
+├── include/ # Reusable PHP includes (header, footer, db connection)
+│
+├── about.php # About page
+├── agent.php # Agent profile page
+├── calc.php # Mortgage or finance calculator
+├── config.php # DB connection and config settings
+├── contact.php # Contact form/page
+├── faq.php # Frequently asked questions
+├── feature.php # Features overview
+├── index.php # Homepage
+├── login.php # User login
+├── logout.php # User logout
+├── profile.php # User profile
+├── property.php # Property listing (single view)
+├── propertydetail.php # Detailed property view
+├── propertygrid.php # Grid view of multiple properties
+├── register.php # User registration
+├── stateproperty.php # Property filtered by state/location
+├── submitproperty.php # Add new property listing
+├── submitpropertydelete.php # Delete user property listing
+├── submitpropertyupdate.php # Edit/update user property listing
+├── termscondi.php # Terms and conditions
+├── README.md # Project documentation (this file)
